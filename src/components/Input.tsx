@@ -26,7 +26,7 @@ export function Input() {
                 
             </div>
             {list.map((nome,index) => (
-                <div className={styles.userlistcontainer}>
+                <div key={index} className={styles.userlistcontainer}>
                 <p>{nome}</p>
                 <button onClick={()=>removeName(index)}>X</button>
             </div>
