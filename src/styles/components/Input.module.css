@@ -1,0 +1,37 @@
+
+  .addusercontainer > input{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+  }
+
+  .addusercontainer{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .addusercontainer > button{
+   height: 30px;
+   border-style: none;
+  }
+
+  .inputcontainer{
+    padding: 10px;
+}
+
+  .userlistcontainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-left: 6px;
+}
+
+.userlistcontainer > button{
+  height: 30px;
+  width: 30px;
+  margin-top: 10px;
+  border-style: none;
+}
